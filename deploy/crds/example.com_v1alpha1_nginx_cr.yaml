@@ -1,0 +1,8 @@
+apiVersion: example.com/v1alpha1
+kind: Nginx
+metadata:
+          name: example-nginx
+          spec:
+                    replicaCount: 2
+                    service:
+                            port: 8080
